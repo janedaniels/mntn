@@ -1,0 +1,133 @@
+.list, .link {list-style-type: none;
+text-decoration: none;}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {margin: 0;}
+
+ul {margin: 0;
+    padding-left: 0;}
+button {cursor: pointer;}
+
+
+.header-container {width: 1920px;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 64px;}
+.header-container {display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;}
+.logo {font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;}
+.header-navigation {display: flex;
+gap: 40px;}
+.header-navigation > ul > li > a {color: #FFFFFF;}
+.navigation-item {font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration-style: none;}
+.account-button {display: flex;
+    width: 98px;
+    height: 24px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: Gilroy Font;
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 100%;
+    color: #FFFFFF;}
+.account-icon {fill: #FFFFFF;
+    margin-right: 8px;}
+.hero-container {width: 1920px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 198px;
+    padding-bottom: 171px;}
+.hero-container {display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+background-color: black;}
+.hero-soc {display: flex;
+flex-direction: column;
+gap: 24px;
+margin-right: 396px;}
+.hero-soc-list {display: flex;
+    flex-direction: column;
+    gap: 24px;}
+.follow-text {writing-mode: vertical-rl;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;}
+.soc-icon {fill: white;}
+.hero-main-content {width: 950px;
+    height: 200px;
+    display: flex;
+flex-wrap: wrap;
+gap: 32px;
+justify-content: left;}
+.point {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;}
+.current {position: relative;}
+.current::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 72px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #FBD784;}
+
+.hero-text {color: white;
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;}
+.clue {display: flex;
+flex-wrap: nowrap;
+gap: 12px;}
+.clue-text {font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+color: white;}
+.clue-icon {fill: #FFFFFF;}
+
+.start-part {color: white;
+text-align: right;}
+.start-text {font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 40px;}
+.start-data {display: flex;
+    flex-direction: column;
+    gap: 40px;}
