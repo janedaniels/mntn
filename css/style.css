@@ -11,11 +11,11 @@ h6 {margin: 0;}
 ul {margin: 0;
     padding-left: 0;}
 button {cursor: pointer;}
-
-
-.header-container {width: 1920px;
-padding-left: 80px;
-padding-right: 80px;
+body {margin: 0;}
+.container {width: 1424px;}
+.header-container {width: 1324px;
+    padding-left: 50px;
+    padding-right: 50px;
 padding-top: 64px;}
 .header-container {display: flex;
 justify-content: space-between;
@@ -53,9 +53,9 @@ gap: 40px;}
     color: #FFFFFF;}
 .account-icon {fill: #FFFFFF;
     margin-right: 8px;}
-.hero-container {width: 1920px;
-    padding-left: 80px;
-    padding-right: 80px;
+.hero-container {width: 1324px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 198px;
     padding-bottom: 171px;}
 .hero-container {display: flex;
@@ -65,8 +65,7 @@ align-items: center;
 background-color: black;}
 .hero-soc {display: flex;
 flex-direction: column;
-gap: 24px;
-margin-right: 396px;}
+gap: 24px;}
 .hero-soc-list {display: flex;
     flex-direction: column;
     gap: 24px;}
@@ -74,11 +73,11 @@ margin-right: 396px;}
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     color: white;}
 .soc-icon {fill: white;}
-.hero-main-content {width: 950px;
+.hero-main-content {width: 700px;
     height: 200px;
     display: flex;
 flex-wrap: wrap;
@@ -93,34 +92,30 @@ justify-content: left;}
     letter-spacing: 6px;
     text-transform: uppercase;
     color: #FBD784;}
-.current {position: relative;}
-.current::before {
+.point::before {
     content: '';
-    position: absolute;
-    left: 0px;
-    top: 10px;
     width: 72px;
     height: 2px;
-    border-radius: 2px;
     background-color: #FBD784;}
 
 .hero-text {color: white;
     font-family: 'Chronicle Display';
     font-style: normal;
-    font-weight: 500;
-    font-size: 88px;
-    line-height: 100px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
     text-transform: capitalize;}
 .clue {display: flex;
 flex-wrap: nowrap;
 gap: 12px;}
 .clue-text {font-family: 'Gilroy';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-color: white;}
-.clue-icon {fill: #FFFFFF;}
+color: #FBD784;
+text-transform: lowercase;}
+.clue-icon {fill: #FBD784;}
 
 .start-part {color: white;
 text-align: right;}
@@ -131,3 +126,60 @@ text-align: right;}
 .start-data {display: flex;
     flex-direction: column;
     gap: 40px;}
+
+.zero-container {width: 1324px;
+    padding-left: 50px;
+    padding-right: 50px;
+padding-top: 240px;
+padding-bottom: 200px;
+background-color: black;
+display: flex;
+flex-wrap: nowrap;
+gap: 114px;
+align-items: center;}
+.zero-one-left {
+    width: 632px;
+    height: 439px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;}
+.zero-title {margin-bottom: 27px;
+font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;}
+.zero-text {font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;}
+.zero-one-right {width: 566px;
+    height: 720px;}
+.zero-two-right {width: 632px;
+    height: 439px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;}
+.zero-three-left {width: 632px;
+    height: 439px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;}
+.zero-three-right {width: 566px;
+    height: 720px;}
+
+.foter-container {width: 1324px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+flex-wrap: nowrap;
+gap: 593px;
+background-color: black;}
+.more {display: flex;
+flex-wrap: nowrap;
+gap: 212px;}
+.more-blog-item {margin-bottom: 16px;}
+/* .zero-one-right {display: block;} */
